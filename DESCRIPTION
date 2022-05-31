@@ -1,0 +1,10 @@
+Package: textwork
+Type: Package
+Title: Clean webscrapped text
+Version: 0.0.1.0
+Author: Eugen Toews
+Maintainer: Eugen Toews <eugtoews@gmail.com>
+Description: The cleanString function removes special characters and punctuation that are irrelevant to the text analysis.
+    Moreover, it repairs uncommon characters from special fonts and includes an empty space after the full stop at the end of a sentence.
+Encoding: UTF-8
+RoxygenNote: 7.2.0.9000
