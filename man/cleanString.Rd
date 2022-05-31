@@ -16,7 +16,6 @@ The cleaned and transformed text string or strings vector, depending on the inpu
 `cleanString` cleans scrapped news articles text strings by removing and/or replacing special characters and punctuation. It also trims the string and encodes it with "UTF-8".
 }
 \examples{
-str <- data(example)
-temp1 <- cleanString(str, )
-temp2 <- cleanString(str, )
+data(news)
+cleanString(news$text)
 }

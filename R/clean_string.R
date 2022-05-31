@@ -4,9 +4,8 @@
 #' @param text The string to be cleaned. Either character or character vector.
 #' @return The cleaned and transformed text string or strings vector, depending on the input format.
 #' @examples
-#' str <- data(example)
-#' temp1 <- cleanString(str, )
-#' temp2 <- cleanString(str, )
+#' data(news)
+#' cleanString(news$text)
 #' @export
 cleanString <- function(text) {
   text %>%
